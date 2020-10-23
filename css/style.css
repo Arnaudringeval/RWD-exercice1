@@ -1,6 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
 body
 {
     background-color: #b42727;
+}
+@media screen and (min-width: 401px) and (max-width: 960px)
+{
+    
+}
+.menu
+{
+    background-color: rgb(20, 20, 145);
+    padding: 8%;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    padding: 12%;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    background-color: grey;
+    padding: 32%;
+}
+.sign-up
+{
+    display: flex;
+    justify-content: center;
+    background-color: lightskyblue;
+    padding: 12%;
+}
+.feature-1
+{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    padding: 12%;
+}
+.feature-2
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(175, 54, 54);
+    padding: 12%;
+}
+.feature-3
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(117, 78, 117);
+    padding: 12%;
 }
 @media screen and (min-width: 401px) and (max-width: 960px)
 {
@@ -8,11 +64,103 @@ body
     {
         background-color: rgb(211, 211, 58);
     }
+    .header
+    {
+        display: flex;
+        justify-content: center;
+        background-color: cadetblue;
+        padding: 12%;
+    }
+    .sign-up
+    {
+        display: flex;
+        justify-content: center;
+        background-color: lightskyblue;
+        padding: 12%;
+        width: 26%;
+    }
+    .feature-1
+    {
+        display: flex;
+        justify-content: center;
+        background-color: orange;
+        padding: 12%;
+        width: 26%;
+    }
+    .feature-2
+    {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(175, 54, 54);
+        padding: 12%;
+        width: 26%;
+    }
+    .feature-3
+    {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(117, 78, 117);
+        padding: 12%;
+        width: 26%;
+    }    
+    .exercice
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 @media screen and (min-width: 961px)
 {
     body
     {
         background-color: rgb(41, 41, 112);
+    }
+    .sign-up
+    {
+        display: flex;
+        justify-content: center;
+        background-color: lightskyblue;
+        padding: 12%;
+        width: 100%;
+    }
+    .feature-1
+    {
+        display: flex;
+        justify-content: center;
+        background-color: orange;
+        width: 10%;
+    
+    }
+    .feature-2
+    {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(175, 54, 54);
+        width: 9%;
+    }
+    .feature-3
+    {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(117, 78, 117);
+        width: 9%;
+    }    
+    .exercice
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .menu
+    {
+        order: 2;
+    }
+    .header
+    {
+        order: 1;
     }
 }
