@@ -7,10 +7,6 @@ body
 {
     background-color: #b42727;
 }
-@media screen and (min-width: 401px) and (max-width: 960px)
-{
-    
-}
 .menu
 {
     background-color: rgb(20, 20, 145);
